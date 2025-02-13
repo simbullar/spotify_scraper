@@ -1,8 +1,8 @@
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import pandas as pd
-cid = '11830fec5e624b5aa1ab7f005b1d320a'
-secret = 'af6748817d524ae19a0276d85f982f9e'
+cid = ''
+secret = ''
 
 scope = 'user-library-read'
 with open("songs.txt", "w") as song:
